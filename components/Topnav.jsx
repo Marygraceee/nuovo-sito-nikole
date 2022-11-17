@@ -6,7 +6,7 @@ const Topnav = () => {
   const [open, setOpen] = useState(false)
   return (
     
-<nav className="flex w-full bg-light dark:bg-dark justify-center items-center p-5 sticky top-0">
+<nav className="flex w-full bg-light dark:bg-dark justify-center items-center p-5 sticky top-0 z-50 shadow-xl">
   <div className="flex flex-col lg:flex-row justify-between items-center w-full lg:px-12 px-2">
     <div className="flex justify-between w-full">
       <Link href='/' className="text-dark dark:text-light">Nikole Ceccarelli</Link>

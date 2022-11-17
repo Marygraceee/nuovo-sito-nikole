@@ -1,8 +1,11 @@
 import React from 'react'
+import ChiSono from '../components/ChiSono'
 
 const chisono = () => {
   return (
-    <div>chi-sono</div>
+    <>
+    <ChiSono />
+    </>
   )
 }
 
