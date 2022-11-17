@@ -8,25 +8,7 @@ const Form = () => {
 <section class="bg-gray-100">
   <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
-      <div class="lg:col-span-2 lg:py-12">
-        <div>
-        <h2 className="text-2xl">Email</h2>
-       <p className="text-xl">nikolececcarelli@gmail.com</p>
-        </div>
-       <div>
-        <h2 className="text-2xl">Cellulare</h2>
-        <p className="text-xl">
-        +39 3884748205
-        </p>
-       </div>
-       <div>
-        <h2 className="text-2xl">Social</h2>
-        <div className="text-2xl">
-            <Link href="https://www.linkedin.com/in/nikolececcarelli/"><AiFillLinkedin /></Link>
-        </div>
-
-       </div>
-      </div>
+   
 
       <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
         <form action="" class="space-y-4">
@@ -82,6 +64,25 @@ const Form = () => {
             </button>
           </div>
         </form>
+      </div>
+      <div class="lg:col-span-2 lg:py-12">
+        <div>
+        <h2 className="text-2xl">Email</h2>
+       <p className="text-xl">nikolececcarelli@gmail.com</p>
+        </div>
+       <div>
+        <h2 className="text-2xl">Cellulare</h2>
+        <p className="text-xl">
+        +39 3884748205
+        </p>
+       </div>
+       <div>
+        <h2 className="text-2xl">Social</h2>
+        <div className="text-2xl">
+            <Link href="https://www.linkedin.com/in/nikolececcarelli/"><AiFillLinkedin /></Link>
+        </div>
+
+       </div>
       </div>
     </div>
   </div>
