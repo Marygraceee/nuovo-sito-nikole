@@ -15,6 +15,12 @@ a {
   box-sizing: border-box;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+
 
 @tailwind base;
 @tailwind components;

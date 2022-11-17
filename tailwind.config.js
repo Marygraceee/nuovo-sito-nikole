@@ -15,8 +15,8 @@ module.exports = {
     extend: {
       colors: {
         "dark": "#2B2024",
-        "main": "#FD0054",
-        "hover": "#A80038",
+        "main": "#A80038",
+        "hover": "#FD0054",
         "light": "#FBF9FA"
       },
     },

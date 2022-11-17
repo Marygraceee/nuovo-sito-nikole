@@ -1,8 +1,11 @@
 import React from 'react'
+import CTA from '../components/CTA'
 
 const index = () => {
   return (
-    <div>index</div>
+    <>
+    <CTA />
+    </>
   )
 }
 
