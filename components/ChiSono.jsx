@@ -4,7 +4,7 @@ import portrait from "../assets/portrait.jpg"
 
 const ChiSono = () => {
   return (
-    <section>
+    <section className="min-h-screen py-20">
   <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
       <div className="rounded-full relative z-10 lg:py-16">
@@ -17,9 +17,9 @@ const ChiSono = () => {
         </div>
       </div>
 
-      <div className="relative flex items-center bg-gray-100">
+      <div className="relative flex items-center bg-sfondi">
         <span
-          className="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-gray-100"
+          className="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-sfondi"
         ></span>
 
         <div className="p-8 sm:p-16 lg:p-24">

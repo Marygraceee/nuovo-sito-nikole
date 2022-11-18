@@ -6,9 +6,9 @@ const CTA = () => {
   return (
     <section
     style={{ backgroundImage: `url(${sfondo.src})` }} 
-    className="bg-white h-screen w-full dark:bg-gray-900 bg-cover">
-    <div className="bg-black/25 w-full h-full grid lg:grid-cols-12">
-        <div className="lg:px-24 px-2 lg:text-left text-center mr-auto lg:place-self-center place-center-start py-24 lg:py-0 lg:col-span-7 text-light">
+    className="bg-white h-screen w-full dark:bg-gray-900 bg-center bg-cover">
+    <div className="bg-black/75 w-full h-full flex lg:justify-start lg:text-left text-center justify-center items-center">
+        <div className="lg:px-24 px-2 text-light">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">“Si legge quello che piace leggere, ma si scrive quello che si è capaci di scrivere.”</h1>
             <p className="max-w-2xl mb-6 font-light  lg:mb-8 md:text-lg lg:text-xl">Editing di libri. Proofreader. Copywriter per blog post, per landing page e siti… ecco perché nascono sempre “lavori nuovi”: sono solo nomi, etichette. Nel mio caso potremmo dire che sono una <span className="text-main font-extrabold">“creativa della comunicazione”</span>.</p>
             <Link href="/contatti" className="bg-main hover:bg-hover inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">

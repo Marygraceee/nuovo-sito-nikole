@@ -17,10 +17,11 @@ module.exports = {
         "dark": "#2B2024",
         "main": "#A80038",
         "hover": "#FD0054",
-        "light": "#FBF9FA"
+        "light": "#FBF9FA",
+        "sfondi": "#d6d6d6",
       },
     },
     
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 }
