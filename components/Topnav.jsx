@@ -30,11 +30,11 @@ const Topnav = () => {
 
   return (
     
-<nav className={`flex w-full bg-dark justify-center items-center p-5 sticky top-0 z-50 shadow-xl ${trasparente ? ' bg-opacity-70' : 'bg-opacity-100'} transition duration-300 ease-in-out backdrop-blur-sm `}>
+<nav className={`flex w-full bg-dark justify-center items-center p-2 sticky top-0 z-50 shadow-xl ${trasparente ? ' bg-opacity-70' : 'bg-opacity-100'} transition duration-300 ease-in-out backdrop-blur-sm `}>
   <div className="flex flex-col lg:flex-row justify-between items-center w-full lg:px-12 lg:gap-0 gap-2 px-2">
     <div className="flex justify-between w-full">
       <Link href='/' className={` text-2xl text-light transition duration-300 ease-in-out`}>Nikole Ceccarelli</Link>
-      <button onClick={() => {setOpen(!open)}} className={` text-2xl ${trasparente ? 'text-dark dark:text-light' : 'text-light dark:text-dark '} lg:hidden block transition duration-300 ease-in-out`}><HiOutlineMenuAlt1 /></button>
+      <button onClick={() => {setOpen(!open)}} className={` text-2xl lg:hidden block text-light`}><HiOutlineMenuAlt1 /></button>
     </div>
     <div id="desktopLinks" className="w-full flex justify-end">
       <ul className="hidden lg:flex lg:flex-row gap-5 items-center justify-center">

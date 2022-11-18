@@ -4,7 +4,7 @@ import portrait from "../assets/portrait.jpg"
 
 const ChiSono = () => {
   return (
-    <section className="min-h-screen py-20">
+    <section className="min-h-screen py-20 bg-light">
   <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
       <div className="rounded-full relative z-10 lg:py-16">
@@ -34,6 +34,15 @@ Sin da quando avevo 12 anni immaginavo di lavorare con le parole, ma al tempo cr
 
 Ad oggi ho raccolto una quantità impressionante di esperienze e, oltre a essere più cinica e onesta, sono anche fortemente concentrata sull’obiettivo: da me non esiste il servizio “a metà”. Non posso, materialmente, forzarmi a lavorare male. Anche se lo facessi mi sentirei fisicamente male e dovrei stirarmi le dita come Dobby.
           </p>
+          <div class=" text-center">
+      <a
+        href="/contatti"
+        class="mt-8 inline-flex items-center rounded border border-main hover:border-hover bg-main hover:bg-hover px-8 py-3 text-light focus:outline-none focus:ring active:text-dark"
+      >
+        <span class="text-sm font-medium">Contattami</span>
+
+      </a>
+    </div>
         </div>
       </div>
     </div>

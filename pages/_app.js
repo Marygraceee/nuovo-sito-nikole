@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import axios from 'axios';
 import Topnav from '../components/Topnav';
 import Head from 'next/head';
+import Footer from '../components/Footer';
 
 
 
@@ -23,7 +24,7 @@ function MyApp({ Component, pageProps }) {
     <Topnav />
     
     <Component {...pageProps} />
-    
+    <Footer />
     </div>
   ) 
 }

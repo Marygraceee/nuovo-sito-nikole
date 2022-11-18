@@ -13,14 +13,17 @@ a {
 
 * {
   box-sizing: border-box;
+  outline: none;
 }
 
 body{
   display: flex;
   flex-direction: column;
-  max-height: 100vh;
-  
+  background-color: black;
 }
+
+
+
 
 
 @tailwind base;
