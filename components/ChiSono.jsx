@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import portrait from "../assets/portrait.jpg"
+import Link from 'next/link'
 
 const ChiSono = () => {
   return (
@@ -34,14 +35,14 @@ Sin da quando avevo 12 anni immaginavo di lavorare con le parole, ma al tempo cr
 
 Ad oggi ho raccolto una quantità impressionante di esperienze e, oltre a essere più cinica e onesta, sono anche fortemente concentrata sull’obiettivo: da me non esiste il servizio “a metà”. Non posso, materialmente, forzarmi a lavorare male. Anche se lo facessi mi sentirei fisicamente male e dovrei stirarmi le dita come Dobby.
           </p>
-          <div class=" text-center">
-      <a
+          <div className=" text-center">
+      <Link
         href="/contatti"
-        class="mt-8 inline-flex items-center rounded border border-main hover:border-hover bg-main hover:bg-hover px-8 py-3 text-light focus:outline-none focus:ring active:text-dark"
+        className="mt-8 inline-flex items-center rounded border border-main hover:border-hover bg-main hover:bg-hover px-8 py-3 text-light focus:outline-none focus:ring active:text-dark"
       >
-        <span class="text-sm font-medium">Contattami</span>
+        <span className="text-sm font-medium">Contattami</span>
 
-      </a>
+      </Link>
     </div>
         </div>
       </div>

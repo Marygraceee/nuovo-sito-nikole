@@ -8,7 +8,7 @@ import social from "../assets/social.jpg"
 const Servizi = () => {
   return (
     <section className="bg-light min-h-screen flex flex-col items-center gap-5 py-8 w-full">
-        <div  className="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row w-xl p-5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <div  className="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row w-9/12 p-5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
     <Image className="object-cover rounded-full w-48 aspect-square" src={copy} alt=""/>
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Copywriting</h5>
@@ -18,7 +18,7 @@ Gli argomenti che ho trattato e che tratto sono davvero moltissimi e puoi contro
     </div>
        </div>
 
-<div  className="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row w-xl p-5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+<div  className="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row w-9/12 p-5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
     
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Strutturazione brand identity</h5>
@@ -29,7 +29,7 @@ Ho già gestito gruppi di persone e scegliendomi puoi quindi contare su una pers
     <Image className="object-cover rounded-full w-48 aspect-square" src={brand} alt=""/>
 </div>
 
-<div  className="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row w-xl p-5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+<div  className="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row w-9/12 p-5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
     <Image className="object-cover rounded-full w-48 aspect-square" src={ghost} alt=""/>
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ghostwriting</h5>
@@ -41,7 +41,7 @@ Scrivo anche script per i video di Youtube e TikTok, cosa che considero apparten
     </div>
 </div>
 
-<div  className="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row w-xl p-5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+<div  className="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row w-9/12 p-5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
     
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Social Media/Email Marketing</h5>
