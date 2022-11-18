@@ -30,7 +30,7 @@ const Topnav = () => {
 
   return (
     
-<nav className={`flex w-full bg-dark justify-center items-center p-5 fixed top-0 z-50 shadow-xl ${trasparente ? ' bg-opacity-70' : 'bg-opacity-100'} transition duration-300 ease-in-out backdrop-blur-sm `}>
+<nav className={`flex w-full bg-dark justify-center items-center p-5 sticky top-0 z-50 shadow-xl ${trasparente ? ' bg-opacity-70' : 'bg-opacity-100'} transition duration-300 ease-in-out backdrop-blur-sm `}>
   <div className="flex flex-col lg:flex-row justify-between items-center w-full lg:px-12 lg:gap-0 gap-2 px-2">
     <div className="flex justify-between w-full">
       <Link href='/' className={` text-2xl text-light transition duration-300 ease-in-out`}>Nikole Ceccarelli</Link>
