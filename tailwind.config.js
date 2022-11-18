@@ -18,7 +18,7 @@ module.exports = {
         "main": "#A80038",
         "hover": "#FD0054",
         "light": "#FBF9FA",
-        "sfondi": "#d6d6d6",
+        "sfondi": "#e3e3e3",
       },
     },
     
