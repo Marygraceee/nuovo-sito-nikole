@@ -23,7 +23,7 @@ Di contro, lascia che ti chieda una cosa.
         href="/servizi"
       >
 
-        <h2 className="mt-4 text-xl font-bold text-dark">&ldquo;Non posso spendere soldi&ldquo;</h2>
+        <h2 className=" text-xl font-bold text-dark">&ldquo;Non posso spendere soldi&ldquo;</h2>
 
         <p className="mt-1 text-sm text-dark">
 Non puoi o non vuoi? La scelta è tutta qui: capire quali spese sono necessarie e quali non. Hai la certezza che non valga la pena investire nella comunicazione OGGI?
@@ -35,7 +35,7 @@ Non puoi o non vuoi? La scelta è tutta qui: capire quali spese sono necessarie 
         href="/servizi"
       >
 
-        <h2 className="mt-4 text-xl font-bold text-dark">&ldquo;So scrivere i testi da me&ldquo;</h2>
+        <h2 className=" text-xl font-bold text-dark">&ldquo;So scrivere i testi da me&ldquo;</h2>
 
         <p className="mt-1 text-sm text-dark">
 Certo! Il punto è come. Il mio compito è ottimizzare ogni parola affinché sia estremamente coerente all’obiettivo: cosa ho studiato per anni se potevo limitarmi ad improvvisare?
@@ -47,7 +47,7 @@ Certo! Il punto è come. Il mio compito è ottimizzare ogni parola affinché sia
         href="/servizi"
       >
 
-        <h2 className="mt-4 text-xl font-bold text-dark">&ldquo;Non mi fido di nessuno&ldquo;</h2>
+        <h2 className=" text-xl font-bold text-dark">&ldquo;Non mi fido di nessuno&ldquo;</h2>
 
         <p className="mt-1 text-sm text-dark">
 Fai bene! Il mercato è pieno di persone che improvvisano e non devi fidarti sulla base del nulla. Guarda il mio portfolio, mettimi alla prova. Tu hai bisogno di aiuto e io sono qui per questo: aiutare.
