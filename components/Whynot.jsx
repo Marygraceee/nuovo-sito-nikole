@@ -19,7 +19,7 @@ Di contro, lascia che ti chieda una cosa.
 
     <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
       <Link
-        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-hover"
+        className="block rounded-xl border border-gray-800 p-8 shadow-xl lg:hover:-translate-y-2 transition duration-300 ease-in-out hover:border-hover"
         href="/servizi"
       >
 
@@ -31,7 +31,7 @@ Non puoi o non vuoi? La scelta è tutta qui: capire quali spese sono necessarie 
       </Link>
 
       <Link
-        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-hover"
+        className="block rounded-xl border border-gray-800 p-8 shadow-xl lg:hover:-translate-y-2 transition duration-300 ease-in-out hover:border-hover"
         href="/servizi"
       >
 
@@ -43,7 +43,7 @@ Certo! Il punto è come. Il mio compito è ottimizzare ogni parola affinché sia
       </Link>
 
       <Link
-        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-hover"
+        className="block rounded-xl border border-gray-800 p-8 shadow-xl lg:hover:-translate-y-2 transition duration-300 ease-in-out hover:border-hover"
         href="/servizi"
       >
 
