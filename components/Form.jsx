@@ -82,17 +82,23 @@ const Form = () => {
 
       <div className="lg:col-span-2 lg:py-12 text-center lg:text-left">
         <div>
-        <h2 className="text-2xl">Email</h2>
+        <h2 className="text-main text-2xl font-bold sm:text-3xl">
+          Email
+          </h2>
        <p className="text-xl">nikolececcarelli@gmail.com</p>
         </div>
        <div>
-        <h2 className="text-2xl">Cellulare</h2>
+       <h2 className="text-main text-2xl font-bold sm:text-3xl">
+          Cellulare
+          </h2>
         <p className="text-xl">
         +39 3884748205
         </p>
        </div>
        <div>
-        <h2 className="text-2xl">Social</h2>
+       <h2 className="text-main text-2xl font-bold sm:text-3xl">
+          Social
+          </h2>
         <div className="text-2xl flex justify-center lg:justify-start">
             <Link href="https://www.linkedin.com/in/nikolececcarelli/"><AiFillLinkedin /></Link>
         </div>

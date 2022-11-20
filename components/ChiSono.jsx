@@ -5,12 +5,12 @@ import Link from 'next/link'
 
 const ChiSono = () => {
   return (
-    <section className="min-h-screen bg-light py-16 w-full flex justify-center">
-        <div className="flex lg:flex-row flex-col lg:w-9/12 w-full justify-center items-center lg:p-0 p-2">
+    <section className="min-h-screen bg-light py-16 w-full flex justify-center lg:px-0 px-5">
+        <div className="flex lg:flex-row flex-col lg:w-9/12 w-full justify-center items-center gap-5">
             <div className="w-full rounded-full aspect-square bg-cover">
                 <Image className="rounded-full aspect-square bg-cover object-cover" alt="Nikole" src={portrait} />
             </div>
-            <div className="w-full bg-sfondi aspect-square flex flex-col justify-center lg:items-start items-center p-5 gap-2">
+            <div className="w-full bg-sfondi aspect-square flex flex-col justify-center lg:items-start items-center p-10 gap-2 shadow-lg">
             <h2 className="text-main text-2xl font-bold sm:text-3xl">
           Mi chiamo Nikole.
           </h2>
