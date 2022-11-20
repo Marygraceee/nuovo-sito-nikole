@@ -4,8 +4,9 @@ const Form = () => {
   return (
  
 <section className="bg-sfondi py-16 flex items-start justify-center">
-  <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-    <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+  <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 flex flex-col gap-10">
+  <h2 className="text-3xl mx-auto font-bold sm:text-4xl pb-8">Vuoi parlarmi del tuo progetto? Usa il form!</h2>
+    <div className="flex gap-10 lg:flex-row flex-col items-center justify-center">
    
 
     <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
