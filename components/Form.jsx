@@ -1,11 +1,9 @@
-import Link from 'next/link'
 import React from 'react'
-import {AiFillLinkedin} from "react-icons/ai"
 
 const Form = () => {
   return (
  
-<section className="bg-sfondi min-h-screen py-16 flex items-start justify-center">
+<section className="bg-sfondi py-16 flex items-start justify-center">
   <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
    
@@ -94,15 +92,6 @@ const Form = () => {
         <p className="text-xl">
         +39 3884748205
         </p>
-       </div>
-       <div>
-       <h2 className="text-main text-2xl font-bold sm:text-3xl">
-          Social
-          </h2>
-        <div className="text-2xl flex justify-center lg:justify-start">
-            <Link href="https://www.linkedin.com/in/nikolececcarelli/"><AiFillLinkedin /></Link>
-        </div>
-
        </div>
       </div>
     </div>
