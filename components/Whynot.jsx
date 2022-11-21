@@ -5,16 +5,16 @@ const Whynot = () => {
   return (
     <section className="bg-light text-dark">
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-    <div className="mx-auto max-w-lg text-center flex flex-col">
+    <div className="mx-auto text-center flex flex-col gap-10">
       <h2 className="text-3xl font-bold sm:text-4xl">Perché scegliere un creatore di contenuti?</h2>
 
-      <p className="mt-4 text-dark">
+      <p className=" w-full text-dark">
       Andresti in giro su un’auto con un motore improvvisato? Ti fideresti a salire su un aereo mai collaudato prima?
 
 Se non lo faresti per te, perché farlo con il tuo progetto? Affidarsi agli esperti della comunicazione significa avere meno ansie, meno problemi e qualcuno che sa &ldquo;smanettare&ldquo; per far funzionare ogni cosa, che oggi definiamo generalmente &ldquo;copywriter&ldquo;.
 Di contro, lascia che ti chieda una cosa.
       </p>
-      <h2 className="text-3xl mt-5 font-bold sm:text-4xl">Perché dovresti NON scegliere un copywriter?</h2>
+      <h2 className="text-3xl font-bold sm:text-4xl">Perché dovresti NON scegliere un copywriter?</h2>
     </div>
 
     <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">

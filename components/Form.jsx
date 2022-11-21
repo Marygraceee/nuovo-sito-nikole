@@ -1,6 +1,20 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Form = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_PUBLIC_ID )
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
  
 <section className="bg-sfondi py-16 flex items-start justify-center">
@@ -10,7 +24,7 @@ const Form = () => {
    
 
     <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
-            <form action="" className="space-y-4  border-sfondi focus:ring-main focus:border-hover">
+            <form ref={form} onSubmit={sendEmail} action="" className="space-y-4  border-sfondi focus:ring-main focus:border-hover">
               <div>
                 <label className="sr-only" htmlFor="name">Nome</label>
                 <input
@@ -18,6 +32,7 @@ const Form = () => {
                   placeholder="Nome"
                   type="text"
                   id="name"
+                  name="user_name"
                 />
               </div>
 
@@ -29,16 +44,7 @@ const Form = () => {
                     placeholder="Indirizzo email"
                     type="email"
                     id="email"
-                  />
-                </div>
-
-                <div>
-                  <label className="sr-only" htmlFor="phone">Telefono</label>
-                  <input
-                    className="w-full rounded-lg  border-sfondi focus:ring-main focus:border-hover border-1 outline-none p-3 text-sm"
-                    placeholder="Numero di telefono"
-                    type="tel"
-                    id="phone"
+                    name="user_email"
                   />
                 </div>
               </div>
@@ -50,6 +56,7 @@ const Form = () => {
                   placeholder="Messaggio"
                   rows="8"
                   id="message"
+                  name="message"
                 />
               </div>
 
