@@ -1,6 +1,7 @@
-import {PortableText} from '@portabletext/react'
+import { PortableText } from '@portabletext/react';
 import client from '../client';
 import urlBuilder from "@sanity/image-url";
+
 
 
 const urlFor = source =>
@@ -10,19 +11,17 @@ const Articolo = ({articolo}) => {
 
     const myPortableTextComponents = {
         types: {
-            image: props => (<figure><img src={urlFor(props.value.asset)} /></figure>)
+            image: props => (<figure><img src={urlFor(props.value.asset)} /></figure>),
+            
           }
     }
     
   return (
-<article className="bg-light text-dark w-1/2 flex flex-col items-center p-10">
+<article className="bg-light text-dark flex flex-col items-center p-10 lg:w-2/3 w-full prose-xl">
 <h2 className="text-3xl mx-auto text-main font-bold sm:text-4xl pb-8 w-full text-center">{articolo.title}</h2>
     {console.log(articolo)}
 
-<PortableText
-    value={articolo.body}
-    components={myPortableTextComponents}
-/>
+    <PortableText value={articolo.body} components={myPortableTextComponents} />
 </article>
   )
 }
