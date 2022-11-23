@@ -12,7 +12,7 @@ const Articolo = ({articolo, correlato}) => {
 
     const myPortableTextComponents = {
         types: {
-            image: props => (<figure><img className="rounded-xl shadow-xl w-[90%] mx-auto" src={urlFor(props.value.asset)} /></figure>),
+            image: props => (<figure><img className="rounded-xl shadow-xl w-[90%] mx-auto aspect-video object-cover" src={urlFor(props.value.asset)} /></figure>),
             
           }
     }
