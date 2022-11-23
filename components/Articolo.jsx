@@ -8,11 +8,11 @@ import Link from 'next/link';
 const urlFor = source =>
   urlBuilder(client).image(source);
 
-const Articolo = ({articolo}) => {
+const Articolo = ({articolo, correlato}) => {
 
     const myPortableTextComponents = {
         types: {
-            image: props => (<figure><img className="rounded-xl shadow-xl max-w-4xl" src={urlFor(props.value.asset)} /></figure>),
+            image: props => (<figure><img className="rounded-xl shadow-xl w-[90%] mx-auto" src={urlFor(props.value.asset)} /></figure>),
             
           }
     }
@@ -37,7 +37,7 @@ const Articolo = ({articolo}) => {
             />
             )}
           </div>
-    {console.log(articolo)}
+    {console.log(correlato)}
 
     <PortableText value={articolo.body} components={myPortableTextComponents} />
 </article>
