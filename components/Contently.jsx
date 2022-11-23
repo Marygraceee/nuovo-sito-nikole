@@ -16,7 +16,7 @@ const Contently = () => {
           
         <Link
           href="https://nikolececcarelli.contently.com/"
-          className="flex justify-center items-center hover:-translate-y-2 transition duration-300 ease-in-out w-4/12 mx-auto aspect-video"
+          className="flex justify-center items-center lg:hover:-translate-y-2 transition duration-300 ease-in-out w-4/12 mx-auto aspect-video"
         >
           <Image className="w-full h-auto" src={contently} alt="contently"/>
   
