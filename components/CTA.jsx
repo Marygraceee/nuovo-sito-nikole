@@ -6,7 +6,7 @@ const CTA = () => {
   return (
     <section
     style={{ backgroundImage: `url(${sfondo.src})` }} 
-    className="bg-white h-screen w-full dark:bg-gray-900 bg-center bg-cover">
+    className="flex items-center justify-center h-screen bg-fixed bg-center bg-cover bg-image">
     <div className="bg-black/75 w-full h-full flex lg:justify-start lg:text-left text-center justify-center items-center">
         <div className="lg:px-24 px-2 text-light">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">“Si legge quello che piace leggere, ma si scrive quello che si è capaci di scrivere.”</h1>
