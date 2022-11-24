@@ -8,6 +8,15 @@
  *    type: 'blockContent'
  *  }
  */
+ import React from 'react'
+
+ const highlightIcon = () => (
+   <span style={{ fontWeight: 'bold' }}>H</span>
+ )
+ const highlightRender = props => (
+   <span style={{ textAlign: 'center' }}>{props.children.text}</span>
+ )
+
  export default {
   title: 'Block Content',
   name: 'blockContent',
@@ -36,6 +45,14 @@
         decorators: [
           {title: 'Strong', value: 'strong'},
           {title: 'Emphasis', value: 'em'},
+          {
+            title: 'Highlight',
+            value: 'highlight',
+            blockEditor: {
+              icon: highlightIcon,
+              render: highlightRender
+            }
+          },
         ],
         // Annotations can be any object structure – e.g. a link or a footnote.
         annotations: [
