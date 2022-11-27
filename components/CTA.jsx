@@ -1,16 +1,14 @@
 import Link from 'next/link'
 import React from 'react'
-import { useEffect } from 'react'
-import { useState } from 'react'
 import sfondo from "../assets/sfondo.jpg"
-import { useRealViewport } from "next-real-viewport";
+
 
 
 
 
 
 const CTA = () => {
-  const { vw, vh } = useRealViewport();
+
   
   return (
     <section

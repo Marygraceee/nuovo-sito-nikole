@@ -19,7 +19,8 @@ const Articolo = ({articolo, correlato}) => {
     
   return (
 <article className=" prose-lg w-full lg:w-2/3 p-5 lg:p-10 prose-headings:font-bold text-left bg-light">
-<h2 className="text-3xl mx-auto text-main font-bold sm:text-4xl w-full text-center">{articolo.title}</h2>
+  <div>
+  <h2 className="text-3xl mx-auto text-main font-bold sm:text-4xl w-full text-center">{articolo.title}</h2>
 <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
             <p>
               Di
@@ -37,6 +38,8 @@ const Articolo = ({articolo, correlato}) => {
             />
             )}
           </div>
+  </div>
+
     {console.log(correlato)}
 
     <PortableText value={articolo.body} components={myPortableTextComponents} />
