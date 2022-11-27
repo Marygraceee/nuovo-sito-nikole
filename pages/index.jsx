@@ -1,14 +1,12 @@
-import React from 'react'
-import CTA from '../components/CTA'
-import Whynot from '../components/Whynot'
+import React from 'react';
+import CTA from '../components/CTA';
+import Whynot from '../components/Whynot';
 
-const index = () => {
-  return (
-    <>
+const index = () => (
+  <>
     <CTA />
     <Whynot />
-    </>
-  )
-}
+  </>
+);
 
-export default index
+export default index;

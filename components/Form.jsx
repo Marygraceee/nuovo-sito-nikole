@@ -1,29 +1,27 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-const Form = () => {
-
+function Form() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_PUBLIC_ID )
+    emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_PUBLIC_ID)
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
   };
   return (
- 
-<section className="bg-sfondi py-16 flex items-start justify-center">
-  <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 flex flex-col gap-10">
-  <h2 className="text-3xl mx-auto font-bold sm:text-4xl pb-8 w-full text-center">Vuoi parlarmi del tuo progetto? Usa il form!</h2>
-    <div className="flex gap-10 lg:flex-row flex-col items-center justify-center">
-   
 
-    <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+    <section className="bg-sfondi py-16 flex items-start justify-center">
+      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 flex flex-col gap-10">
+        <h2 className="text-3xl mx-auto font-bold sm:text-4xl pb-8 w-full text-center">Vuoi parlarmi del tuo progetto? Usa il form!</h2>
+        <div className="flex gap-10 lg:flex-row flex-col items-center justify-center">
+
+          <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
             <form ref={form} onSubmit={sendEmail} action="" className="space-y-4  border-sfondi focus:ring-main focus:border-hover">
               <div>
                 <label className="sr-only" htmlFor="name">Nome</label>
@@ -86,27 +84,27 @@ const Form = () => {
             </form>
           </div>
 
-      <div className="lg:col-span-2 lg:py-12 text-center lg:text-left">
-        <div>
-        <h2 className="text-main text-2xl font-bold sm:text-3xl">
-          Email
-          </h2>
-       <p className="text-xl">nikolececcarelli@gmail.com</p>
+          <div className="lg:col-span-2 lg:py-12 text-center lg:text-left">
+            <div>
+              <h2 className="text-main text-2xl font-bold sm:text-3xl">
+                Email
+              </h2>
+              <p className="text-xl">nikolececcarelli@gmail.com</p>
+            </div>
+            <div>
+              <h2 className="text-main text-2xl font-bold sm:text-3xl">
+                Cellulare
+              </h2>
+              <p className="text-xl">
+                +39 3884748205
+              </p>
+            </div>
+          </div>
         </div>
-       <div>
-       <h2 className="text-main text-2xl font-bold sm:text-3xl">
-          Cellulare
-          </h2>
-        <p className="text-xl">
-        +39 3884748205
-        </p>
-       </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-  )
+  );
 }
 
-export default Form
+export default Form;
