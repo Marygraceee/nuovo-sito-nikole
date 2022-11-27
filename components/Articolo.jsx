@@ -12,13 +12,13 @@ const Articolo = ({articolo, correlato}) => {
 
     const myPortableTextComponents = {
         types: {
-            image: props => (<figure><img className="rounded-xl shadow-xl w-[90%] mx-auto aspect-video object-cover" src={urlFor(props.value.asset)} /></figure>),
+            image: props => (<figure><img className="rounded-xl shadow-xl w-[95%] mx-auto aspect-video object-cover" src={urlFor(props.value.asset)} /></figure>),
             
           }
     }
     
   return (
-<article className="bg-light text-dark flex flex-col items-center p-10 lg:w-2/3 w-full prose-xl">
+<article className=" prose-lg w-full lg:w-2/3 p-5 lg:p-10 prose-headings:font-bold text-left bg-light">
 <h2 className="text-3xl mx-auto text-main font-bold sm:text-4xl w-full text-center">{articolo.title}</h2>
 <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
             <p>
