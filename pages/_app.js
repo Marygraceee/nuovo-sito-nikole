@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import Topnav from '../components/Topnav';
 import Head from 'next/head';
 import Footer from '../components/Footer';
+import { RealViewportProvider } from "next-real-viewport";
 
  
 
@@ -15,7 +16,9 @@ function MyApp({ Component, pageProps }) {
     
     <Topnav />
     
-    <Component {...pageProps} />
+    <RealViewportProvider>
+      <Component {...pageProps} />
+    </RealViewportProvider>
     <Footer />
     </div>
   ) 

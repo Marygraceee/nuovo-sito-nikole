@@ -3,20 +3,20 @@ import React from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import sfondo from "../assets/sfondo.jpg"
+import { useRealViewport } from "next-real-viewport";
+
+
 
 
 
 const CTA = () => {
-  const [height, setHeight] = useState(null)
-  useEffect(() => {
-    console.log(height)
-    setHeight((window.innerHeight).toString())
-  }, [height]);
+  const { vw, vh } = useRealViewport();
+  
   return (
     <section
-    style={{ backgroundImage: `url(${sfondo.src})` }} 
-    className={`flex items-center justify-center h-screen bg-fixed bg-center bg-cover bg-image`}>
-    <div className={`bg-black/75 w-full h-screen flex lg:justify-start lg:text-left text-center justify-center items-center`}>
+    style={{ backgroundImage: `url(${sfondo.src})`, height: vh * 100 }} 
+    className={`flex items-center justify-center  bg-fixed bg-center bg-cover bg-image`}>
+    <div className={`bg-black/75 w-full h-full flex lg:justify-start lg:text-left text-center justify-center items-center`}>
         <div className="lg:px-24 px-2 text-light">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">“Si legge quello che piace leggere, ma si scrive quello che si è capaci di scrivere.”</h1>
             <p className="max-w-2xl mb-6 font-light  lg:mb-8 md:text-lg lg:text-xl">Editing di libri. Proofreader. Copywriter per blog post, per landing page e siti… ecco perché nascono sempre “lavori nuovi”: sono solo nomi, etichette. Nel mio caso potremmo dire che sono una <span className="text-main font-extrabold">“creativa della comunicazione”</span>.</p>
