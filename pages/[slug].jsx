@@ -5,7 +5,7 @@ import Articolo from '../components/Articolo';
 
 function Post({ post, relatedPost }) {
   return (
-    <section className="min-h-screen bg-sfondi flex flex-col items-center">
+    <section className="min-h-screen bg-dark flex flex-col items-center">
       <Articolo articolo={post} correlato={relatedPost} />
     </section>
   );
