@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Categorie = ({category}) => {
   return (
     <Link
-            href={`/${category.slug.current}`}
+            href={`/categorie/${category.slug.current}`}
           >
     <li className="flex flex-1 p-2 text-center h-20 w-64 justify-center items-center rounded-xl bg-sfondi text-dark border border-gray-800 shadow-xl lg:hover:-translate-y-2 transition duration-300 ease-in-out hover:border-hover">
         

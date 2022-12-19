@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { HiOutlineMenuAlt1 } from 'react-icons/hi';
 import { AiOutlineClose } from 'react-icons/ai';
+import Logo from "../assets/LogoNi.png"
 
 function Topnav() {
   const [open, setOpen] = useState(false);
@@ -32,7 +33,7 @@ function Topnav() {
     <nav className={`flex w-full bg-black justify-center items-center p-2 sticky top-0 z-50 shadow-xl ${trasparente ? ' bg-opacity-70' : 'bg-opacity-100'} transition duration-300 ease-in-out backdrop-blur-sm `}>
       <div className="flex w-full justify-between flex-col lg:flex-row lg:px-10 px-2">
         <div className="flex justify-between w-full items-center h-full">
-          <Link href="/" className=" text-2xl text-light transition duration-300 ease-in-out">Nikole Ceccarelli</Link>
+          <Link href="/" className="text-light transition duration-300 ease-in-out"><img className="w-64 lg:w-80" src={Logo.src} alt="" /></Link>
           <button onClick={() => { setOpen(!open); }} className=" text-2xl lg:hidden block text-light">{open ? <AiOutlineClose /> : <HiOutlineMenuAlt1 />}</button>
         </div>
         <div id="desktopLinks" className="w-full flex justify-end">
