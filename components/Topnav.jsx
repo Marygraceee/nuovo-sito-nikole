@@ -37,7 +37,7 @@ function Topnav() {
           <button onClick={() => { setOpen(!open); }} className=" text-2xl lg:hidden block text-light">{open ? <AiOutlineClose /> : <HiOutlineMenuAlt1 />}</button>
         </div>
         <div id="desktopLinks" className="w-full flex justify-end">
-          <ul className="hidden lg:flex lg:flex-row gap-5 items-center justify-center">
+          <ul className="hidden lg:flex lg:flex-row gap-12 items-center justify-center">
             <li>
               <Link className=" text-xl text-light hover:text-hover transition duration-300 ease-in-out" href="/chi-sono">Chi sono</Link>
             </li>
