@@ -27,7 +27,7 @@ function Form() {
               <div>
                 <label className="sr-only" htmlFor="name">Nome</label>
                 <input
-                  className="w-full rounded-lg  border-sfondi focus:ring-main focus:border-hover/50 border-1 outline-none p-3 text-sm "
+                  className="w-full rounded-lg text-dark border-sfondi focus:ring-main focus:border-hover/50 border-1 outline-none p-3 text-sm "
                   placeholder="Nome"
                   type="text"
                   id="name"
@@ -38,7 +38,7 @@ function Form() {
               <div>
                 <label className="sr-only" htmlFor="email">Email</label>
                 <input
-                  className="w-full rounded-lg  border-sfondi focus:ring-main focus:border-hover/50 border-1 outline-none p-3 text-sm"
+                  className="w-full rounded-lg text-dark border-sfondi focus:ring-main focus:border-hover/50 border-1 outline-none p-3 text-sm"
                   placeholder="Indirizzo email"
                   type="email"
                   id="email"
@@ -49,7 +49,7 @@ function Form() {
               <div>
                 <label className="sr-only" htmlFor="message">Il tuo messaggio</label>
                 <textarea
-                  className="w-full rounded-lg  border-sfondi focus:ring-main focus:border-hover/50 border-1 outline-none p-3 text-sm"
+                  className="w-full rounded-lg text-dark  border-sfondi focus:ring-main focus:border-hover/50 border-1 outline-none p-3 text-sm"
                   placeholder="Messaggio"
                   rows="8"
                   id="message"

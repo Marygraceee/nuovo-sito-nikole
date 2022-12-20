@@ -39,16 +39,16 @@ function Topnav() {
         <div id="desktopLinks" className="w-full flex justify-end">
           <ul className="hidden lg:flex lg:flex-row gap-12 items-center justify-center">
             <li>
-              <Link className=" text-xl text-light hover:text-hover transition duration-300 ease-in-out" href="/chi-sono">Chi sono</Link>
+              <Link className=" text-2xl text-light hover:text-hover transition duration-300 ease-in-out" href="/chi-sono">Chi sono</Link>
             </li>
             <li>
-              <Link className=" text-xl text-light hover:text-hover transition duration-300 ease-in-out" href="/servizi">Servizi</Link>
+              <Link className=" text-2xl text-light hover:text-hover transition duration-300 ease-in-out" href="/servizi">Servizi</Link>
             </li>
             <li>
-              <Link className=" text-xl text-light hover:text-hover transition duration-300 ease-in-out" href="/blog">Blog</Link>
+              <Link className=" text-2xl text-light hover:text-hover transition duration-300 ease-in-out" href="/blog">Blog</Link>
             </li>
             <li>
-              <Link className=" text-xl text-light hover:text-hover transition duration-300 ease-in-out" href="/contatti">Contatti</Link>
+              <Link className=" text-2xl text-light hover:text-hover transition duration-300 ease-in-out" href="/contatti">Contatti</Link>
             </li>
           </ul>
         </div>
