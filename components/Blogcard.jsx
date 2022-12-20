@@ -15,7 +15,7 @@ function Blogcard({ article }) {
         
         <div className="flex mt-5">
           <img alt="avatar" className="w-6 rounded-full border-2 border-gray-300" src={article.author.imageUrl} />
-          <p className="ml-3">{article.author.name}</p>
+          <Link href='/chi-sono' className="ml-3">{article.author.name}</Link>
         </div>
       </div>
     </div>

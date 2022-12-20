@@ -45,7 +45,7 @@ const blog = ({ articles, categories }) => (
     <div className=" w-full flex justify-center items-center ">
       <h2 className="text-3xl mx-auto font-bold sm:text-4xl pb-8 w-full text-center text-light">Categorie</h2>
     </div>
-   <ul className="flex lg:flex-row flex-col gap-5 justify-center items-center">
+   <ul className="grid lg:grid-cols-3 lg:gap-6 grid-cols-2 gap-2 justify-center items-center">
       {categories.map((category) => (
         <Categorie key={category.title} category={category} />
       ))}
