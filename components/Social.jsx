@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import {
-  SiFiverr, SiUpwork, SiMastodon, SiLinkedin,
+   SiUpwork, SiMastodon, SiLinkedin,
 } from 'react-icons/si';
 import textbroker from "../assets/textbroker.svg"
 
