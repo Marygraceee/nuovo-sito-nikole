@@ -14,10 +14,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "dark": "#210808",
-        "main": "#732222",
-        "hover": "#963f3f",
-        "light": "#FBF9FA",
+        "dark": "#57000C",
+        "main": "#A23645",
+        "hover": "#7C1220",
+        "light": "#e8dfe0",
         "sfondi": "#e3e3e3",
       },
     },

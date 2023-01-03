@@ -30,7 +30,7 @@ function Whynot() {
             href="/servizi"
           >
             <span className="flex flex-col justify-center items-center w-full gap-2">
-              <figure className="text-2xl"><BiMoney /></figure>
+              <figure className="text-4xl"><BiMoney /></figure>
               <h2 className=" text-2xl font-bold text-dark">&ldquo;Non posso spendere soldi&ldquo;</h2>
             </span>
 
@@ -47,7 +47,7 @@ function Whynot() {
           >
 
             <span className="flex flex-col justify-center items-center w-full gap-2">
-              <figure className="text-2xl"><BiPencil /></figure>
+              <figure className="text-4xl"><BiPencil /></figure>
               <h2 className=" text-2xl font-bold text-dark">&ldquo;So scrivere i testi da me&ldquo;</h2>
             </span>
 
@@ -64,7 +64,7 @@ function Whynot() {
           >
 
             <span className="flex flex-col justify-center items-center w-full gap-2">
-              <figure className="text-2xl"><CgDanger /></figure>
+              <figure className="text-4xl"><CgDanger /></figure>
               <h2 className=" text-2xl font-bold text-dark">&ldquo;Non mi fido di nessuno&ldquo;</h2>
             </span>
 
